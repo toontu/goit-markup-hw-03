@@ -451,8 +451,6 @@ line-height: 1.71;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-
-    border: 1px solid #EEEEEE;
 }
 
 /* .project-card {
@@ -473,6 +471,7 @@ line-height: 1.71;
 
 .project-card .content {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
     /* outline: 2px solid red; */
 }
 
