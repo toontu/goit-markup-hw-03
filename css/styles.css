@@ -166,6 +166,12 @@ body {
     padding-bottom: 200px;
 }
 
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-title {
     color: #fff;
 
@@ -175,6 +181,7 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
+
     margin-bottom: 30px;
 }
 
@@ -441,12 +448,20 @@ line-height: 1.71;
 }
 
 .project-card {
-    width: 370px;
+    width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 
     border: 1px solid #EEEEEE;
 }
+
+/* .project-card {
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    border: 1px solid #EEEEEE;
+}*/
 
 .project-card:nth-child(3n) {
     margin-right: 0;
