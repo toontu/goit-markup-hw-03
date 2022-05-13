@@ -71,12 +71,23 @@ body {
     outline: 2px solid red;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo-header {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-right: 93px;
 }
 
 .accent {
@@ -85,12 +96,31 @@ body {
 
 /* Хэдер навигация */
 
+.site-nav {
+    display: flex;
+    /* margin-left: 93px; */
+}
+
+/* .site-nav-item {
+    margin-right: 50px;
+
+    background-color: plum;
+} */
+
+.site-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .site-nav .link {
     color: var(--title-text-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .site-nav .link:hover,
@@ -100,6 +130,15 @@ body {
 
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.site-contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-contacts-item:not(:first-child) {
+    margin-left: 50px;
 }
 
 .site-contacts .link {
@@ -135,7 +174,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
-    max-width: 696px;
 }
 
 .hero-button {
@@ -174,8 +212,16 @@ body {
     margin: -1px;
 }
 
+.feature-list {
+    display: flex;
+}
+
 .feature-item {
     width: 270px;
+}
+
+.feature-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .feature-item-title {
@@ -187,7 +233,7 @@ body {
     margin-bottom: 10px;
 }
 
-.feature-list-text {
+.feature-item-text {
     line-height: 1.71;
 }
 
