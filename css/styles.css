@@ -61,8 +61,6 @@ body {
     padding-top: 24px;
     padding-bottom: 25px;
     /* background-color: teal; */
-    
-    height: 80px;
 
     border-bottom: 1px solid #ECECEC;
 }
@@ -169,8 +167,6 @@ body {
 
     padding-top: 200px;
     padding-bottom: 200px;
-
-    height: 600px;
 }
 
 .hero .container {
